@@ -16,7 +16,7 @@
   ],
 
   "url": "https://github.com/megahead11/cozy-target",
-	"manifest": "https://raw.githubusercontent.com/megahead11/cozy-target/main/module.json,
+	"manifest": "https://raw.githubusercontent.com/megahead11/cozy-target/main/module.json",
 	"download": "https://github.com/megahead11/cozy-target/raw/main/cozy-target.zip"
 }
 
