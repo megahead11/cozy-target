@@ -228,7 +228,8 @@ function clearTargets(targetToKeep = null) {
       target.value.setTarget(false, { user: game.user, releaseOthers: false });
     }
   }
-  game.user.targets = new Set();
+  token.target.clear();
+  //game.user.targets = new Set();
 }
 
 // Turn End Clear Markers
