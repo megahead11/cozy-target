@@ -1,7 +1,7 @@
 ## Cozy Target
 
 * **Author**: Pakki Sukibe (Credit to Psyny for original)
-* **Version**: 2.0.1
+* **Version**: 2.0.3
 * **Foundry VTT Compatibility**: 0.7.5
 * **System Compatibility**: D&D 5e
 * **Link**: https://github.com/megahead11/cozy-target
