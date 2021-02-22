@@ -224,10 +224,9 @@ function clearTargets(targetToKeep = null) {
   const targets = game.user.targets.values();
   for(let target = targets.next(); !target.done; target = targets.next())
   {
-    if(!targetToKeep || target.value.id !== targetToKeep) {
-      target.value.setTarget(false, { user: game.user, releaseOthers: false });
-    }
+      target.value.setTarget(false, { user: game.user, releaseOthers: true });
   }
+  //game.user.targets = new Set();
 }
 
 // Turn End Clear Markers
@@ -235,7 +234,7 @@ var previousTurn = "";
 Hooks.on("updateCombat", (combat, update, options, user) => {
   if( !game.settings.get("cozy-target", "targetsClearOnTurnEnd") ) return;
   
-  if( previousTurn === "" ) {
+/*  if( previousTurn === "" ) {
     clearTargets();
     previousTurn = combat.current.tokenId;
     return;
@@ -245,7 +244,8 @@ Hooks.on("updateCombat", (combat, update, options, user) => {
     clearTargets();
     previousTurn = combat.current.tokenId;
     return;
-  }
+  } */
+   clearTargets();
 });
 
 // Get Selected Targets (returns a token list)
