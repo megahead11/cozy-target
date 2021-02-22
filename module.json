@@ -6,7 +6,7 @@
 	"version": "2.0.1",
 	"minimumCoreVersion": "0.7.5",
   
-	"esmodules": [
+	"scripts": [
     "./scripts/settings.js",
     "./scripts/chat-integration.js"
 	],
