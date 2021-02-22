@@ -4,7 +4,7 @@
 * **Version**: 2.0.0
 * **Foundry VTT Compatibility**: 0.7.5
 * **System Compatibility**: D&D 5e
-* **Link**: https://github.com/psyny/FoundryVTT/tree/master/CozyPlayer
+* **Link**: https://github.com/megahead11/cozy-target
 
 
 ### What is this?
