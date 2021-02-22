@@ -1,0 +1,22 @@
+{
+	"name": "cozy-target",
+	"title": "Cozy Target",
+	"description": "Appends target names to chat messages and allows advanced untarget features.",
+	"author": "Pokeye Sukaybe",
+	"version": "2.0.0",
+	"minimumCoreVersion": "0.7.5",
+  
+	"scripts": [
+    "./scripts/settings.js",
+    "./scripts/chat-integration.js"
+	],
+	
+	"styles": [
+    "./styles.css"
+  ],
+
+  "url": "https://github.com/psyny/FoundryVTT/tree/master/CozyPlayer",
+	"manifest": "https://raw.githubusercontent.com/psyny/FoundryVTT/master/CozyPlayer/cozy-player/module.json",
+	"download": "https://github.com/psyny/FoundryVTT/raw/master/CozyPlayer/cozy-player.zip"
+}
+
